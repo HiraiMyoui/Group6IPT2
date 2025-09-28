@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.PT {
+    width: 100%;
+    height: clamp(72vh, 864px, 102vh);
+
+    background-image: url(imgs/momo-dandadan-ken-5120x2880-23854.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    margin: 0 auto;
+}
+.Tittle {
+   
+    padding: 2%; 
+    border-radius: 10px;
+    max-width: 100%; 
+    font-size: clamp(2.18rem, 4.36vw, 3.28rem);
+    font-family: 'Bebas Neue', sans-serif;
+    margin: 2%;
+    text-align: center;
+    color: rgb(255, 255, 255); 
+}
+.Paragraph{
+    margin: 30px;
+    background-position: center;
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    font-family: 'Bebas Neue', sans-serif;
+    text-align: center; 
+    color: rgb(255, 255, 255); 
+    padding: 2%; 
+    max-width: 100%; 
+    font-size: clamp(1.46rem, 2.92vw, 2.18rem);
+
+    
+  
+}
+
+.why1 {
+
+    width: 100%; 
+    height: clamp(72vh, 864px, 102vh);
+    background-image: url(imgs/momo-dandadan-ken-5120x2880-23854.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex; 
+    justify-content: space-between; 
+    align-items: flex-start; 
+    padding:  5%;
+    font-family: 'Bebas Neue', sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+.text-container1 {
+    background-color: rgba(0, 0, 0, 0.721); 
+    padding: 2%; 
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+    max-width: 560px; 
+    font-size: clamp(1.4rem, 2.8vw, 2.1rem); 
+    line-height: 1.5; 
+    margin-left: 2%; 
+    padding-left: 2%;
+}
+.text-container1 h1 {
+    font-size: clamp(2.8rem, 5.6vw, 4.2rem);
+    margin-bottom: 10px; 
+}
+.text-container1 p {
+    font-size: clamp(1.4rem, 2.8vw, 2.1rem);
+    margin: 0;
+}
+.training-options {
+    display: grid; 
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 10px; 
+    max-width: 500px; 
+    width: clamp(350px, 40vw, 600px); 
+    margin: 20px auto;
+    
+    
+
+}
+.training-options a {
+    display: block; 
+    background-color: rgba(0, 0, 0, 0.7); 
+    padding: 20px; 
+    border-radius: 10px; 
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+    font-size: clamp(1rem, 2vw, 1.5rem); 
+    text-align: center; 
+    color: rgb(255, 255, 255); 
+    text-decoration: none;
+    cursor: pointer; 
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease; 
+}
+.training-options a:hover {
+    transform: translateY(-5px); 
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.7); 
+    background-color: rgba(0, 0, 0, 0.9); 
+}
+
+
+
+.footer {
+    background-color: #1a1a1a;
+    color: #fff;
+    padding: 2%;
+  }
+  
+  .footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+  }
+  .social-media {
+    font-size: 2em;
+  }
