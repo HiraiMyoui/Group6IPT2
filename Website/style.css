@@ -29,7 +29,8 @@
     font-family: 'Bebas Neue', sans-serif;
     margin: 2%;
     text-align: center;
-    color: rgb(255, 255, 255); 
+     color: rgb(255, 255, 255); 
+    text-shadow: #000000   1px 1px 2px;
 }
 .Paragraph{
     margin: 30px;
@@ -41,6 +42,7 @@
     font-family: 'Bebas Neue', sans-serif;
     text-align: center; 
     color: rgb(255, 255, 255); 
+    text-shadow: #1a1a1a   1px 1px 2px;
     padding: 2%; 
     max-width: 100%; 
     font-size: clamp(1.46rem, 2.92vw, 2.18rem);
@@ -103,7 +105,8 @@
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
     font-size: clamp(1rem, 2vw, 1.5rem); 
     text-align: center; 
-    color: rgb(255, 255, 255); 
+     color: rgb(255, 255, 255); 
+    text-shadow: #1a1a1a   1px 1px 2px;
     text-decoration: none;
     cursor: pointer; 
     transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease; 
@@ -112,6 +115,8 @@
     transform: translateY(-5px); 
     box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.7); 
     background-color: rgba(0, 0, 0, 0.9); 
+     color: rgb(255, 255, 255); 
+    text-shadow: #1a1a1a   1px 1px 2px;
 }
 
 
