@@ -29,8 +29,8 @@
     font-family: 'Bebas Neue', sans-serif;
     margin: 2%;
     text-align: center;
-     color: rgb(255, 255, 255); 
-    text-shadow: #000000   1px 1px 2px;
+     color: rgb(225, 255, 74); 
+    text-shadow: #000000   5px 5px 5px;
 }
 .Paragraph{
     margin: 30px;
@@ -136,3 +136,17 @@
   .social-media {
     font-size: 2em;
   }
+
+/* Weather widget */
+.weather-section{ padding: 2rem; max-width: 900px; margin: 2rem auto; color: #fff; text-align: center; }
+.weather-widget{ display:inline-flex; gap:0.6rem; align-items:center; justify-content:center; background: rgba(0,0,0,0.5); padding:0.6rem 1rem; border-radius:8px; }
+.weather-widget p{ margin:0; font-size:1rem; }
+.weather-widget button{ background:transparent; border:1px solid rgba(255,255,255,0.2); color:#fff; padding:0.25rem 0.5rem; border-radius:6px; cursor:pointer; }
+.weather-notes{ font-size:0.85rem; opacity:0.9; margin-top:0.5rem; }
+
+/* Definitions */
+.definitions{ background: #f8f8f8; color:#111; padding:1.6rem; max-width:1000px; margin:2rem auto; border-radius:10px; }
+.definitions h2{ margin-bottom:0.8rem; }
+.definitions dl{ column-count:1; }
+.definitions dt{ font-weight:700; margin-top:0.6rem; }
+.definitions dd{ margin-left:0; margin-bottom:0.6rem; color:#333; }
