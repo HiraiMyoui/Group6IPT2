@@ -40,17 +40,56 @@
     </div>
   </div>
 
+  <!-- Weather widget: shows current weather (uses Open-Meteo) -->
+  <div class="weather-section">
+    <h2>Local Weather</h2>
+    <div id="weather-widget" class="weather-widget">
+      <p id="weather-status">Loading weather...</p>
+      <button id="weather-refresh" title="Refresh weather">🔁</button>
+    </div>
+    <p class="weather-notes">(Uses Open-Meteo. If location access is allowed the widget will attempt to use it.)</p>
+  </div>
+
 
 
 </div>
-<footer class="footer">
+  <!-- Definitions of Terms (site-specific) -->
+  <section class="definitions">
+    <h2>Definition of Terms</h2>
+    <dl>
+      <dt>Group 6</dt>
+      <dd>The student group creating this portfolio site; contains individual member pages linked from this index.</dd>
+
+      <dt>Portfolio</dt>
+      <dd>A personal page for each member (e.g., <a href="Aristotle.html">Aristotle</a>) showcasing skills, projects, and contact details.</dd>
+
+      <dt>Member</dt>
+      <dd>An individual listed on this site who contributed to the Group 6 project and maintains a personal portfolio page.</dd>
+
+      <dt>Project</dt>
+      <dd>Work or assignment described on a member's portfolio, such as class projects or practice apps.</dd>
+
+      <dt>Weather Widget</dt>
+      <dd>The small panel on this page that fetches current weather data from the Open‑Meteo API and displays it to visitors.</dd>
+
+      <dt>API</dt>
+      <dd>Application Programming Interface — this site uses external APIs (for example, Open‑Meteo for weather) to fetch dynamic data.</dd>
+
+      <dt>Dark Mode</dt>
+      <dd>A theme option available on some portfolio pages that inverts the color scheme; the preference is stored in the browser using <code>localStorage</code>.</dd>
+    </dl>
+  </section>
+
+  <footer class="footer">
     <div class="footer-content">
       
       <div class="social-media">
-          <a href="#"><i class="fa fa-facebook"></i></a>
+          <a href="https://www.facebook.com"><i class="fa fa-facebook"></i></a>
           <a href="#"><i class="fa fa-twitter"></i></a>
           <a href="#"><i class="fa fa-instagram"></i></a>
           <a href="#"><i class="fa fa-linkedin"></i></a>
+          <a href="#"><i class="fa fa-github"></i></a>
+          <a href="#"><i class="fa fa-youtube"></i></a>
       </div>
       <p>&copy; 2024 WMA4-4B. All rights reserved.</p>
   
