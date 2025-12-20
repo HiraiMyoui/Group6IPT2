@@ -5,8 +5,34 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Justine O. Cordova — Portfolio</title>
 <link rel="stylesheet" type="text/css" href="Cordova.css">
+<style>
 
-
+    .project-card {
+       
+        background: linear-gradient(135deg, #4f46e5 0%, #7c3aed 100%);
+        color: white;
+        padding: 2rem;
+        border-radius: 12px;
+        margin-top: 2rem;
+        box-shadow: 0 10px 20px rgba(79, 70, 229, 0.3);
+        text-align: center;
+    }
+    .project-card h2 { color: white; margin-bottom: 0.5rem; }
+    .project-card p { color: #e0e7ff; margin-bottom: 1.5rem; }
+    .launch-btn {
+        display: inline-block;
+        background: white;
+        color: #4f46e5;
+        padding: 12px 24px;
+        text-decoration: none;
+        font-weight: bold;
+        border-radius: 30px;
+        transition: transform 0.2s, box-shadow 0.2s;
+    }
+    .launch-btn:hover {
+        transform: translateY(-3px);
+        box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    }
 </style>
 </head>
 
@@ -28,6 +54,12 @@
       <p>Hi — I'm Justine, a Bachelor of Science in Information Technology student at <strong>Tarlac State University</strong>. I completed Advance ROTC at Tarlac State University and enjoy team sports and technology projects. I'm eager to learn, collaborate, and build practical software solutions.</p>
     </section>
 
+    <section class="project-card">
+        <h2>Final Term Case Study: NextRead Ultra</h2>
+        <p>A personal library manager powered by the Open Library API. Features include a reading timer, ISBN search, search history, and local storage persistence.</p>
+        <a href="Justine_App.html" class="launch-btn" target="_blank">🚀 Launch Library App</a>
+    </section>
+
     <section style="margin-top:16px">
       <h2>Hobbies</h2>
       <p class="muted">What I do in my free time</p>
@@ -42,13 +74,12 @@
       <h2>Personal Information</h2>
       <div class="info-row"><div class="label">Age</div><div class="value">25 years old</div></div>
       <div class="info-row"><div class="label">Date of Birth</div><div class="value">June 17, 2000</div></div>
-    </section>
-     <div class="info-row"><div class="label">Address</div><div class="value">Balanoy, LaPaz, Tarlac</div></div>
+      <div class="info-row"><div class="label">Address</div><div class="value">Balanoy, LaPaz, Tarlac</div></div>
       <div class="info-row"><div class="label">Phone</div><div class="value"><a href="tel:+639457887494">0945-788-7494</a></div></div>
       <div class="info-row"><div class="label">Email</div><div class="value"><a href="mailto:justineocampocordova@gmail.com">justineocampocordova@gmail.com</a></div></div>
-    </div>
-  </aside>
-</div>
+    </section>
+  </main> 
+</div> 
 
 </body>
 </html>
