@@ -2,10 +2,10 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>John Kristian Dela Peña - Portfolio & Weather Dashboard</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>John Kristian Dela Peña</title>
   <link rel="stylesheet" href="DelaPena.css">
 </head>
-
 <body>
   <header>
     <h1>John Kristian Dela Peña</h1>
@@ -31,25 +31,16 @@
     </ul>
   </section>
 
-  <section id="weather">
-    <h2 class="section-title">Select a City</h2>
-    <select id="citySelect" onchange="getWeather()">
-      <option value="">-- Select a City --</option>
-      <option value="Tarlac">Tarlac</option>
-      <option value="Manila">Manila</option>
-      <option value="Cebu">Cebu</option>
-      <option value="Davao">Davao</option>
-      <option value="Baguio">Baguio</option>
-    </select>
-
-    <div id="weather-card">
-      <h2>Weather Info</h2>
-      <p>Please select a city.</p>
+  <section class="quote-section">
+    <h2>Random Quote Generator</h2>
+    <div class="quote-container">
+      <p id="quote">Loading quote...</p>
+      <button id="new-quote">Get New Quote</button>
     </div>
   </section>
 
   <footer>
-    <p>&copy; 2025 John Kristian. All rights reserved.</p>
+    <p>&copy; 2025 John Kristian Dela Peña</p>
   </footer>
 
   <script src="jk.js"></script>

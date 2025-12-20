@@ -1,114 +1,99 @@
 body {
+  font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  font-family: 'Arial', sans-serif;
-  background: linear-gradient(to bottom, #a1c4fd, #c2e9fb);
+  background-color: #f4f4f9;
   color: #333;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  min-height: 100vh;
   line-height: 1.6;
 }
 
 header {
-  background-color: rgba(255, 255, 255, 0.9);
-  padding: 30px 20px;
+  background-color: #2c3e50;
+  color: white;
+  padding: 30px;
   text-align: center;
-  width: 100%;
-  box-shadow: 0 3px 10px rgba(0,0,0,0.1);
   border-radius: 10px;
-  margin: 20px 0;
+  margin: 20px;
 }
 
 header h1 {
-  margin: 0;
-  font-size: 3em;
-  color: #00796b;
+  margin-bottom: 15px;
 }
 
 header ul {
-  list-style: none;
+  list-style: none;  
   padding: 0;
-  margin: 10px 0 0 0;
+  margin: 0;
+  text-align: center;
 }
 
 header ul li {
   margin: 5px 0;
+  list-style-type: none; 
   font-size: 18px;
 }
 
 section {
-  padding: 50px 20px;
-  max-width: 400px;
-  text-align: center;
-  width: 100%;
   background: white;
+  margin: 20px;
+  padding: 20px;
   border-radius: 8px;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+  color: #2c3e50;
+}
+
+.quote-section {
+  background: linear-gradient(to right, #6a11cb, #2575fc);
+  color: #fff;
+  padding: 30px;
+  border-radius: 15px;
+  max-width: 600px;
+  margin: 40px auto;
+  text-align: center;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+}
+
+.quote-container {
+  margin-top: 20px;
+}
+
+#quote {
+  font-size: 1.2rem;
   margin: 20px 0;
 }
 
-h2.section-title {
-  font-size: 2.5em;
-  margin-bottom: 20px;
-  color: #00796b;
+button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  background: #fff;
+  color: #2575fc;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #2575fc;
+  color: #fff;
 }
 
 footer {
   text-align: center;
-  padding: 15px;
-  background-color: #00796b;
-  color: white;
-  margin-top: auto;
-  width: 100%;
+  margin: 20px;
+  padding: 10px;
+  color: #555;
 }
 
 footer a {
   text-decoration: none;
-  color: white;
+  color: #2c3e50;
   font-weight: bold;
 }
 
 footer a:hover {
   text-decoration: underline;
-}
-
-/* Weather Section Styles */
-#weather {
-  margin: 20px 0;
-  padding: 25px;
-  background-color: rgba(255,255,255,0.95);
-  border-radius: 15px;
-  max-width: 400px;
-  box-shadow: 0 5px 20px rgba(0,0,0,0.2);
-  transition: transform 0.3s ease, background-color 0.3s ease;
-}
-
-#weather:hover {
-  transform: translateY(-5px);
-  background-color: rgba(255,255,255,1);
-}
-
-#citySelect {
-  padding: 10px;
-  font-size: 1em;
-  margin: 10px 0;
-  border-radius: 5px;
-  border: 1px solid #ccc;
-  width: 220px;
-}
-
-#weather-card {
-  margin-top: 20px;
-}
-
-#weather-card h2 {
-  font-size: 1.5em;
-  color: #00796b;
-}
-
-#weather-card p {
-  font-size: 1.1em;
-  margin: 8px 0;
 }
