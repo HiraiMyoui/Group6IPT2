@@ -2,26 +2,25 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>John Kristian Dela Peña</title>
   <link rel="stylesheet" href="DelaPena.css">
 </head>
-
 <body>
   <header>
-  <h1>John Kristian Dela Peña</h1>
-  <ul>
-    <li>BSIT Student</li>
-    <li>Studying at Tarlac State University</li>
-  </ul>
-</header>
+    <h1>John Kristian Dela Peña</h1>
+    <ul>
+      <li>BSIT Student</li>
+      <li>Studying at Tarlac State University</li>
+    </ul>
+  </header>
 
-  <section>
+  <section class="glass">
     <h2>About Me</h2>
-    <p>Hello! I’m John Kristian, a BSIT student majoring in Web and Mobile Application. 
-      </p>
+    <p>Hello! I’m John Kristian, a 4th year BSIT student majoring in Web and Mobile Application.</p>
   </section>
 
-  <section>
+  <section class="glass">
     <h2>Personal Information</h2>
     <ul>
       <li><strong>Age:</strong> 22</li>
@@ -32,8 +31,18 @@
     </ul>
   </section>
 
+  <section class="quote-section glass">
+    <h2>Random Quotes Generator</h2>
+    <div class="quote-container">
+      <p id="quote">Loading quote...</p>
+      <button id="new-quote">Get New Quote</button>
+    </div>
+  </section>
+
   <footer>
-    <p><a href="index.html">← Back to Homepage</a></p>
+    <p>&copy; 2025 John Kristian Dela Peña</p>
   </footer>
+
+  <script src="jk.js"></script>
 </body>
 </html>

@@ -1,62 +1,106 @@
 <!DOCTYPE html>
-<html>
-    <head>
-      <meta charset="utf-8">
-      <link rel="stylesheet" href="style.css">
-      <meta name="viewport" content="width=device-width, inital-scale=1.0">
-      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-      <meta name="viewport" content="width=device-width, initial-scale=1"> 
-      <link href="https://fonts.googleapis.com/css?
-      family=Kaushan+Script | Poppins&display=swap" rel="stylesheet">
-      <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-
-      scroll/dist/smooth-scroll.polyfills.min.js"></script>
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>Group 6 Portfolio</title>
-    </head>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Group 6 Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
 <body>
-  
-       
-      </nav>
-      <div class="PT"> 
-        <div class="Tittle">Group 6.</div>
-        <div class="Paragraph">this website showcase our members portfolio</div>
-       
-    </div>  
-
-
-    <div class="why1">
-      <div class="text-container1">
-          <h1>Our members</h1>
-          <p>These are the members that are part of this Group,
-            you can click on their name to see their portfolio.</p>
-
+  <!-- HERO SECTION -->
+  <header class="hero">
+    <div class="hero-content">
+      <div class="weather-widget">
+        <div class="weather-display">
+          <span id="weather-icon">🌤️</span>
+          <div class="weather-text">
+            <p id="weather-status">Loading...</p>
+            <p id="weather-location" style="font-size: 0.8rem; opacity: 0.8;"></p>
+          </div>
+        </div>
+        <button id="weather-refresh" class="weather-btn">↻</button>
       </div>
-      <div class="training-options">
-      <br><a href="Aristotle.html" class="Personal">Aristotle Lacson Jr</a>
-      <br><a href="JohnKristian.html" class="Group">John Kristian DelaPena</a>
-      <br><a href="Kurt.html" class="Online">Kurt Rassel Francisco</a>
-      <br><a href="Justine.html" class="Counseling">Justine Cordova</a>
-      <br><a href="Christian.html" class="Counseling">Christian DelaCruz</a>
-    </div>
-  </div>
 
-
-
-</div>
-<footer class="footer">
-    <div class="footer-content">
-      
-      <div class="social-media">
-          <a href="#"><i class="fa fa-facebook"></i></a>
-          <a href="#"><i class="fa fa-twitter"></i></a>
-          <a href="#"><i class="fa fa-instagram"></i></a>
-          <a href="#"><i class="fa fa-linkedin"></i></a>
+      <div class="hero-text">
+        <h1 class="hero-title">Group 6</h1>
+        <p class="hero-subtitle">Web Design & Development Portfolio</p>
       </div>
-      <p>&copy; 2024 WMA4-4B. All rights reserved.</p>
-  
     </div>
-</footer>
+    <div class="hero-decoration"></div>
+  </header>
 
-<script src="script.js"></script> 
+  <!-- MEMBERS SECTION -->
+  <section class="members-section">
+    <div class="container">
+      <div class="section-header">
+        <h2>Meet Our Team</h2>
+        <p>Click any member to explore their portfolio</p>
+      </div>
+
+      <div class="members-grid">
+        <a href="Aristotle.html" class="member-card">
+          <div class="card-content">
+            <div class="card-icon">👨‍💼</div>
+            <h3>Aristotle Lacson Jr</h3>
+            <p class="role">Developer</p>
+          </div>
+        </a>
+
+        <a href="JohnKristian.html" class="member-card">
+          <div class="card-content">
+            <div class="card-icon">👨‍💻</div>
+            <h3>John Kristian DelaPena</h3>
+            <p class="role">Designer</p>
+          </div>
+        </a>
+
+        <a href="Kurt.html" class="member-card">
+          <div class="card-content">
+            <div class="card-icon">🎨</div>
+            <h3>Kurt Rassel Francisco</h3>
+            <p class="role">Creative</p>
+          </div>
+        </a>
+
+        <a href="Justine.html" class="member-card">
+          <div class="card-content">
+            <div class="card-icon">👩‍💼</div>
+            <h3>Justine Cordova</h3>
+            <p class="role">Developer</p>
+          </div>
+        </a>
+
+        <a href="Christian.html" class="member-card">
+          <div class="card-content">
+            <div class="card-icon">👨‍🔬</div>
+            <h3>Christian DelaCruz</h3>
+            <p class="role">Specialist</p>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-info">
+          <p>&copy; 2024 Group 6. All rights reserved.</p>
+          <p class="footer-class">WMA4-4B</p>
+        </div>
+        <div class="social-links">
+          <a href="#" title="Facebook"><i class="fab fa-facebook"></i></a>
+          <a href="#" title="Twitter"><i class="fab fa-twitter"></i></a>
+          <a href="#" title="Instagram"><i class="fab fa-instagram"></i></a>
+          <a href="#" title="GitHub"><i class="fab fa-github"></i></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>

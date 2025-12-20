@@ -2,28 +2,37 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aristotle Lacson Jr - Student Portfolio</title>
     <link rel="stylesheet" href="Lacson.css">
 </head>
 <body>
     <header>
+        <div class="theme-toggle">
+            <button id="dark-toggle" aria-pressed="false" title="Toggle dark mode">🌙 Dark</button>
+        </div>
+
         <div class="container">
-            
             <h1>Aristotle M. Lacson Jr</h1>
             <p class="subtitle">Student • Cook • Assistant <br> Hi, I'm Arizu, Know that all I am, all I do, with a heart made fullmetal</p>
+            <div class="cat-fact-wrap">
+                <p id="catFact" class="cat-fact">Loading cat fact...</p>
+                <button id="refresh-fact" class="refresh-fact" title="Refresh cat fact">🔁</button>
+            </div>
         </div>
     </header>
+
     <main>
         <section id="personal">
             <h2>Personal Info</h2>
             <ul>
-                
                 <li><strong>Age:</strong> 19</li>
-                       <li><strong>Course</strong> BSIT-WMA</li>
+                <li><strong>Course:</strong> BSIT-WMA</li>
                 <li><strong>Year:</strong> 4th</li>
                 <li><strong>Address:</strong> Concepcion Tarlac</li>
             </ul>
         </section>
+
         <section id="hobbies">
             <h2>Hobbies</h2>
             <ul>
@@ -32,9 +41,9 @@
                 <li>Listening to music</li>
                 <li>Building simple websites</li>
                 <li>Playing the Piano</li>
-                
             </ul>
         </section>
+
         <section id="projects">
             <h2>Projects</h2>
             <ul>
@@ -43,16 +52,20 @@
                 <li><strong>Calculator App</strong> – Developed a basic calculator as a practice project.</li>
             </ul>
         </section>
+
         <section id="contact">
             <h2>Contact</h2>
             <p>
-                Email: <a href="mailto:LacsonJrAistotle-728@gmail.com">Aristotle Lacson Jr</a> <br>
-                Number: <a href="tel:+639771344838">09771344838</a>
+                <strong>Email:</strong> <a href="mailto:LacsonJrAistotle-728@gmail.com">LacsonJrAistotle-728@gmail.com</a> <br><br>
+                <strong>Number:</strong> <a href="tel:+639771344838">+63 977 134 4838</a>
             </p>
         </section>
     </main>
+
     <footer>
         <p>&copy; 2025 Aristotle Lacson Portfolio. All rights reserved.</p>
     </footer>
+
+    <script src="jr.js"></script>
 </body>
 </html>

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Weather API</title>
+
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: linear-gradient(to right, #74ebd5, #acb6e5);
+      font-family: Arial, sans-serif;
+    }
+
+    .weather-card {
+      background: white;
+      width: 300px;
+      padding: 20px;
+      border-radius: 15px;
+      text-align: center;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+    }
+
+    .weather-card h2 {
+      margin: 0;
+      color: #333;
+    }
+
+    .city {
+      font-size: 14px;
+      color: gray;
+      margin-bottom: 15px;
+    }
+
+    .temperature {
+      font-size: 48px;
+      font-weight: bold;
+      color: #ff7a18;
+    }
+
+    .wind {
+      margin-top: 10px;
+      font-size: 16px;
+      color: #555;
+    }
+
+    .footer {
+      margin-top: 20px;
+      font-size: 12px;
+      color: #aaa;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="weather-card">
+    <h2>Weather Today</h2>
+    <div class="city">Tarlac, Philippines</div>
+
+    <div class="temperature" id="temp">-- °C</div>
+    <div class="wind" id="wind">Wind: -- km/h</div>
+
+    <div class="footer">
+      Powered by Open-Meteo API
+    </div>
+  </div>
+
+<script src="francisco.js"></script>
+</body>
+</html>
