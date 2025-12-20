@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>WeatherWise - Interactive Weather Dashboard</title>
+  <link rel="stylesheet" href="DelaPena.css">
+</head>
+<body>
+
+  <header>
+    <h1>WeatherWise</h1>
+    <p>Interactive Weather Dashboard</p>
+  </header>
+
+  <section id="weather">
+    <h2 class="section-title">Select a City</h2>
+    <select id="citySelect" onchange="getWeather()">
+      <option value="">-- Select a City --</option>
+      <option value="Tarlac">Tarlac</option>
+      <option value="Manila">Manila</option>
+      <option value="Cebu">Cebu</option>
+      <option value="Davao">Davao</option>
+      <option value="Baguio">Baguio</option>
+    </select>
+
+    <div id="weather-card">
+      <h2>Weather Info</h2>
+      <p>Please select a city.</p>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 John Kristian. All rights reserved.
+  </footer>
+
+  <script src="DelaPena.js"></script>
+</body>
+</html>
