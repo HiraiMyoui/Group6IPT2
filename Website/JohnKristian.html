@@ -2,23 +2,22 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>John Kristian Dela Peña</title>
+  <title>John Kristian Dela Peña - Portfolio & Weather Dashboard</title>
   <link rel="stylesheet" href="DelaPena.css">
 </head>
 
 <body>
   <header>
-  <h1>John Kristian Dela Peña</h1>
-  <ul>
-    <li>BSIT Student</li>
-    <li>Studying at Tarlac State University</li>
-  </ul>
-</header>
+    <h1>John Kristian Dela Peña</h1>
+    <ul>
+      <li>BSIT Student</li>
+      <li>Studying at Tarlac State University</li>
+    </ul>
+  </header>
 
   <section>
     <h2>About Me</h2>
-    <p>Hello! I’m John Kristian, a BSIT student majoring in Web and Mobile Application. 
-      </p>
+    <p>Hello! I’m John Kristian, a BSIT student majoring in Web and Mobile Application.</p>
   </section>
 
   <section>
@@ -32,8 +31,27 @@
     </ul>
   </section>
 
+  <section id="weather">
+    <h2 class="section-title">Select a City</h2>
+    <select id="citySelect" onchange="getWeather()">
+      <option value="">-- Select a City --</option>
+      <option value="Tarlac">Tarlac</option>
+      <option value="Manila">Manila</option>
+      <option value="Cebu">Cebu</option>
+      <option value="Davao">Davao</option>
+      <option value="Baguio">Baguio</option>
+    </select>
+
+    <div id="weather-card">
+      <h2>Weather Info</h2>
+      <p>Please select a city.</p>
+    </div>
+  </section>
+
   <footer>
-    <p><a href="index.html">← Back to Homepage</a></p>
+    <p>&copy; 2025 John Kristian. All rights reserved.</p>
   </footer>
+
+  <script src="jk.js"></script>
 </body>
 </html>
